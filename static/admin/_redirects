@@ -1,0 +1,5 @@
+/admin/index.html   /admin/index.html   200
+/admin/*            /admin/index.html   200
+
+# This should be your last rule - handles React routing
+/*              /index.html             200
