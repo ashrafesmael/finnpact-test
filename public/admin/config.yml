@@ -1,17 +1,19 @@
+yaml
 backend:
   name: git-gateway
-  repo: ashrafesmael/finnpact-test
   branch: main
 
-media_folder: "public/img"
-public_folder: "/img"
+media_folder: public/images
+public_folder: /images
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "content"
+    label: "Website Content"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "content/homepage.json"
+        fields:
+          - {label: "Hero Title", name: "hero_title", widget: "string"}
+          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "text"}
+          - {label: "Company Name", name: "company_name", widget: "string"}
