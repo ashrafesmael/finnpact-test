@@ -1,5 +1,5 @@
-json   {
-     "hero_title": "Transforming Impact Through Innovation",
-     "hero_subtitle": "Designing programmatic and fund solutions for emerging and frontier markets in Africa and the Middle East.",
-     "company_name": "finnpact"
-   }
+{
+  "hero_title": "This is  new title",
+  "hero_subtitle": "This is the subtitle",
+  "company_name": "This is the company name"
+}
